@@ -25,5 +25,5 @@ dependencies:
 
 test:
   override:
-    - make circleci:
+    - /bin/bash -c "make circleci":
         parallel: true
