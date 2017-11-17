@@ -18,7 +18,7 @@ dependencies:
     - sudo service mysql stop; sudo update-rc.d mysql disable;
     - sudo service rethinkdb stop; sudo update-rc.d rethinkdb disable;
     - wget https://dl.minio.io/server/minio/release/linux-amd64/minio -O /tmp/minio
-    - sudo mv /tmp/minio usr/local/bin/minio
+    - sudo mv /tmp/minio /usr/local/bin/minio
     - sudo chmod +x /usr/local/bin/minio
 
 test:
