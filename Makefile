@@ -46,6 +46,8 @@ EXTRA_DEPS = pypandoc       \
              python-jenkins \
              redis          \
              pymongo        \
+             psycopg2       \
+             boto3          \
              rethinkdb
 
 COPY_FILES = VERSION CHANGES.md common_setup.py MANIFEST.in LICENSE
