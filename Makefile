@@ -48,7 +48,7 @@ EXTRA_DEPS = pypandoc       \
              pymongo        \
              rethinkdb
 
-COPY_FILES = VERSION CHANGES.md common_setup.py MANIFEST.in
+COPY_FILES = VERSION CHANGES.md common_setup.py MANIFEST.in LICENSE
 DIST_FORMATS = sdist bdist_wheel bdist_egg
 UPLOAD_OPTS =
 
